@@ -260,3 +260,81 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 09:51:41.638
 !MESSAGE executing callback sts4.classpath.mldZSFku SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:33.800
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mldZSFku
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:33.811
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mldZSFku
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:33.812
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:33.812
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mldZSFku => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:37.353
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:37.354
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2b6b1f6a[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=1024)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:37.354
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.003
+!MESSAGE Boot LS startup time from start to initialized: 1648ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.114
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PTtSreDHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.115
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.116
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.116
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.117
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.117
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PTtSreDH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.122
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.126
+!MESSAGE buffering callback sts4.classpath.PTtSreDH CRM_api false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.127
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.131
+!MESSAGE classpath=71 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.133
+!MESSAGE buffering callback sts4.classpath.PTtSreDH CRM_FE false 71
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.134
+!MESSAGE executing callback sts4.classpath.PTtSreDH 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:26:39.437
+!MESSAGE executing callback sts4.classpath.PTtSreDH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:27:29.356
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PTtSreDH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:27:29.356
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PTtSreDH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:27:29.357
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-13 10:27:29.357
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PTtSreDH => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-08-13 10:27:29.641
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
