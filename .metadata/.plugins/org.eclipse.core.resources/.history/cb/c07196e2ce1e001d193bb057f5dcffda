@@ -1,0 +1,10 @@
+package com.crm.api.service;
+
+import java.util.List;
+
+import com.crm.api.entity.Roles;
+import com.crm.api.repository.RolesRepository;
+
+public interface RolesServiceImp extends RolesRepository {
+	List<Roles> findAllRoles();
+}

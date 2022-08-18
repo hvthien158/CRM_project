@@ -1,0 +1,5 @@
+package com.crm.api.repository;
+
+public interface RolesRepository {
+
+}
