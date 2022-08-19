@@ -1,0 +1,33 @@
+package com.crm.api.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity(name = "tasks")
+public class Tasks {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	@Column(name = "name")
+	private String name;
+	
+	@Column(name = "start_date")
+	private String startDate;
+	
+	@Column(name = "end_date")
+	private String endDate;
+	
+	@Column(name = "user_id")
+	private int userId;
+	
+	@Column(name = "job_id")
+	private int jobId;
+	
+	@Column(name = "status_id")
+	private int statusId;
+}

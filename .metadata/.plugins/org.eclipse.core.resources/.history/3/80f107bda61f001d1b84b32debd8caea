@@ -1,0 +1,6 @@
+package com.crm.api.service;
+
+@Service
+public class UsersService {
+
+}
